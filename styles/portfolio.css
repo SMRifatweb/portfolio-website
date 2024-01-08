@@ -40,12 +40,140 @@ nav a {
 /* header realeted style */
 .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .profile-pic{
     width: 500px;
+}
+.banner-greeting{
+font-size: 45px;
+color: #474747;
+margin-bottom: 0px;
+}
+.banner-title{
+font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+.banner-content{
+    max-width: 500px;
+}
+/* Main first work */
+.section-title{
+    color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+.about{
+border-radius: 10px;
+background: #FFF8F3;
+padding: 130px;
+margin: 130px 0px;
+}
+.section-description{
+color:  #757575;
+text-align: center;
+font-size: 18px; 
+}
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+
+
+/* section design */
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume section style  */
+.resume-column-title{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-description{
+    color:  #757575;
+   
+}
+.resume-item-institute{
+    color:  #757575;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-title{
+    color:  #474747;
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.resume-container hr{
+margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+/* footer style */
+
+footer{
+    background-color: #FFF8F3;
+    gap: 100px;
+    padding: 130px 200px;
+    margin-top: 100px;
+    display: flex;
+}
+.footer-column{
+    width: 50%;
+    text-align: left;
+}
+
+.contact input [type="text"], .contact input [type="email"], 
+textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+
+}
+.social-links a{
+ margin-right: 25px;
 }
